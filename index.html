@@ -5,46 +5,100 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lo's course diary</title>
+    <link rel="stylesheet" href="styles/index.css">
 </head>
 
 
 <body>
-  <h1>Lo's course diary</h1> 
+    <header>
+      <h1 id="site-name">Front end course diary</h1> 
+      <p class="name">by Lo Hedengran</p>
+      <nav>
+          <ul class="list">
+              <li><a href="">Course structure</a></li>
+              <br>
+              <li><a href="">Contact me</a></li>    
+          </ul>
+      </nav>
+    </header>
+
 </body>
 
-<h2>Front end course</h2>
+<h2>Course structure</h2>
+<main>
 
-<div>
-    <h3>Classwork</h3>
-    <h4>Lesson 1 - February 12th</h4>
-        <p>I am very glad that I had watched the videos before the lesson, that made
-        it easier following along and recognizing some of the new words I had learnt
-        during the videos. Before the lesson I didn’t get Git to function properly and
-        I didn’t manage to set up an SSH key, but I got help with doing this in class. 
+    <table class="table">
+        <tr>
+            <th><h5>Lesson no</h5></th>
+            <th><h5>Topic</h5></th>
+            <th><h5>Classwork</h5></th>
+            <th><h5>Homework</h5></th>
+        </tr>
+        <tr>
+            <td><h5>1</h5></td>
+            <td>Introduction to HTML, Version Control System, Git, GitHub</td>
+            <td><a href="#lesson1"> February 12th</a> </td>
+            <td><a href="#homework1"> Homework 1</a> </td>
+        </tr>
+        <tr>
+            <td><h5>2</h5></td>
+            <td>HTML 5, more tags, Introduction to CSS</td>
+            <td><a href="#lesson2"> February 15th</a> </td>
+            <td><a href="#homework2"> Homework 1</a> </td>
+        </tr>
+    </table>
+
+<h2>Contact me</h2>
+<img src="img/lesson 2.JPG" alt="Person with cat" title="Person with cat">
+
+<section>
+    <form id="form"></form>
+    <textarea placeholder="your name" name="your name" cols="60" rows="1"></textarea>
+    <br>
+    <textarea placeholder="your message" name="your message" cols="60" rows="10"></textarea>
+    <br>
+    <button type="submit">Submit</button>
+</section>
+
+<section>
+        <h3>Classwork </h3>
+        <h4 id="lesson1">Lesson 1 - February 12th</h4>
+            <p>I am very glad that I had watched the videos before the lesson, that made
+            it easier following along and recognizing some of the new words I had learnt
+            during the videos. Before the lesson I didn’t get Git to function properly and
+            I didn’t manage to set up an SSH key, but I got help with doing this in class. 
         <br>
         <br>
-        Below I will list some of the topics discussed in the first lesson.
+            Below I will list some of the topics discussed in the first lesson.
         </p>
-    <h5>Git</h5>
-        <p>A version control system that is very popular and important to be able to work
+        <h5>Git</h5>
+            <p>A version control system that is very popular and important to be able to work
             in as a programmer.</p>
-    <h5>HTML</h5>
-        <p>Short for hyper text markup language, and is the standard markup language for
+        <h5>HTML</h5>
+            <p>Short for hyper text markup language, and is the standard markup language for
             creating websites.</p>
-    <h5>What are tags and what tags are mandatory?</h5>
-        <p>A tag is an element. They  come in pairs, and need a start tag and an end tag,
+        <h5>What are tags and what tags are mandatory?</h5>
+            <p>A tag is an element. They  come in pairs, and need a start tag and an end tag,
             and you put the content between the tags. The mandatory tags are head, title,
             body, doc type.</p>
-    <h5>Things to remember</h5>
-        <p>To be a programmer is to be great at googling. It is not realistic to know how
+        <h5>Things to remember</h5>
+            <p>To be a programmer is to be great at googling. It is not realistic to know how
             to do everything, but getting used to googling and finding the answers is the
             way to go!</p>
-</div>
+</section>
 
-<div>
+<section>
+    <h4 id="lesson2">Lesson 2 - February 15th</h4>
+        <p>We started the lesson with a theory check, where Kate went through what we’ve learnt
+            so far. After that we were presented with the classwork assignment, which consisted
+            of continuing to work on our course diary but with some added instructions to include
+            CSS in our work. Up until now we had only been working with HTML.</p>
+</section>
+
+<section>
     <h3>Homework</h3>
-    <h4>Lesson 1</h4>
-    <p>As my first homework I rewatched all the videos, which was very helpful and I felt
+    <h4 id=homework1>Lesson 1</h4>
+        <p>As my first homework I rewatched all the videos, which was very helpful and I felt
         that I understood a lot more than when I watched them the first time before the
         first lesson. This was very rewarding!
         <br>
@@ -53,4 +107,29 @@
         I needed. This is something I will definitely continuing doing and work out a
         system for organizing my notes throughout the course. 
         </p>
-</div>
+</section>
+
+<section>
+    <h4 id=homework2>Lesson 2</h4>
+        <p>Like last week I started my homework by rewatching the videos and taking notes,
+            a winning concept I think! I feel that repetition is key, it feels very important
+            to be confident (well, as confident as I can be by this stage!) with what we’ve learnt
+            in the previous lesson before attending the next.
+            <br>
+            I continued working with this course diary, trying out a few different styles, fonts,
+            sizes and alignments and colors. I can’t say that I love the look, but with my knowledge
+            so far I’m happy enough!
+            </p>
+
+</section>
+
+
+
+
+</main>
+
+<main>
+    <footer>
+        <h2>Thanks for visiting!</h2>
+    </footer>
+</main>
